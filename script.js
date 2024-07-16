@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let x = canvas.width / 2;
     let y = canvas.height / 2;
-    const stepSize = 2;
+    const stepSize = 5; // Increased step size for bigger trails
+    const trailSize = 4; // Size of the trail dots
 
     function randomWalk() {
         const direction = Math.floor(Math.random() * 4);
@@ -34,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (y < 0) y = canvas.height;
         if (y > canvas.height) y = 0;
 
-        ctx.fillRect(x, y, 1, 1);
+        ctx.fillRect(x, y, trailSize, trailSize); // Drawing a bigger trail dot
     }
 
     function animate() {
@@ -58,3 +59,4 @@ Math.seedrandom = function(seed) {
         return state / (m - 1);
     };
 };
+
