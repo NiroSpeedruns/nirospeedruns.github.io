@@ -1,6 +1,6 @@
 @font-face {
   font-family: "AC-4B";
-  src: url("fonts/AC-4B_Unicode.otf") format("opentype");
+  src: url("/AC-4B_Unicode.otf") format("opentype");
   font-display: swap;
 }
 
