@@ -65,7 +65,7 @@ h2 { font-size: clamp(1.5rem, 4vw, 2rem); margin: 2.5rem 0 .5rem; }
 .scroll { overflow-x: auto; padding: 4px 8px 10px 4px; margin: 0 -8px 0 -4px; }
 table { width: 100%; min-width: 40rem; border-collapse: separate; border-spacing: 6px; }
 table.wide { min-width: 60rem; }
-th { padding: .4rem .5rem; font-size: 1rem; text-transform: uppercase; letter-spacing: .02em; }
+th { padding: .4rem .5rem; font-size: 1rem; letter-spacing: .02em; }
 thead th { text-align: center; vertical-align: bottom; }
 tbody th {
   position: sticky; left: 0; z-index: 1;
