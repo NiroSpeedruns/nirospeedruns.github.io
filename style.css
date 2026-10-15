@@ -5,14 +5,14 @@
 }
 
 :root {
-  --bg: #E8E4FF;
-  --ink: #1E1A5C;
-  --paper: #FFFFFF;
-  --old: #FFB938;
-  --tt: #3FD9A8;
-  --latest: #FF6F91;
+  --bg: #080D18;
+  --ink: #F1F6FF;
+  --paper: #101B30;
+  --old: #FFC857;
+  --tt: #38D9FF;
+  --latest: #176BFF;
   --pixel: "AC-4B", system-ui, sans-serif;
-  color-scheme: light;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
